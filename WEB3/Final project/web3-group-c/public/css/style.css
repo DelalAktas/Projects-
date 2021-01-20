@@ -1,0 +1,147 @@
+html, body,ul, li , h1, h2, a{
+    font-family: arial;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: darkblue;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+.banner{
+    position: relative;
+    margin-top: 68px;
+}
+.banner img{
+    max-width: 100%;
+    width: 100%;
+}
+.banner .welcome{
+    position: absolute;
+    left: 24.5%;
+    top: 38%;
+    color: white;
+    
+}
+.banner h2{
+    font-size:3.6vw;
+}
+.banner h2 span{
+    font-size: 1.3em;
+
+}
+header h1{
+    color: white;
+    border: 8px solid white;
+    padding: 6px 12px;
+    display: inline-block;
+    border-radius: 36px;
+}
+nav.main-nav{
+    background-color: #F4F4F4;
+    padding: 10px;
+    position: sticky;
+    top: 103.5px;
+    z-index: 1;
+}
+nav.main-nav ul{
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+nav.main-nav li{
+    width: 33.3%;
+    display: inline-block;
+    font-size: 24px;
+    text-align: center;
+}
+nav.main-nav a{
+    text-decoration: none;
+    color: #4B4b4b;
+}
+nav.main-nav a.join{
+    color:rgb(17, 0, 255);
+}
+main{
+    max-width: 100%;
+    width: 1200px;
+    margin: 80px auto;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+footer{
+    background: blue;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+.copyright{
+    margin: 0;
+}
+article{
+    width: 248px;
+    margin: auto;
+}
+.hover-animation{
+    position: relative;
+    height: 250px;
+    width: 250px;
+    margin: 10% auto 0;
+    color: #fff;
+  }
+  .hover-animation img{
+    position: absolute;
+    left: 0;
+    height: 250px;
+    width: 250px;
+    transition: opacity is ease-in-out;
+  }
+  .hover-animation img.img-front:hover{
+    opacity: 0;
+    cursor: pointer;
+  }
+  .article-text{
+      text-align: left;
+      padding: 5px;
+  }
+  .pagination {
+    display: inline-block;
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  .pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .pagination a:hover:not(.active) {background-color: #ddd;}
+
+footer {
+    background:#444;
+    padding:30px;
+}
+
+.copy {
+    padding-top: 30px;
+}
+
+#page-content {
+    flex: 1 0 auto;
+}
+
+#sticky-footer {
+    flex-shrink: inherit;
+    position: absolute;
+    bottom: 0;
+}
